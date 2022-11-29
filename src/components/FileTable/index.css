@@ -1,0 +1,57 @@
+  .Filetable-header {
+    display: flex;
+    margin: 2px;
+    height: 35px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    align-items: center;  
+  }
+  
+  .Filetable-container {
+    padding: 20px;
+  }
+  
+  .Filetable-container table {
+    width:100%;
+    border-collapse:collapse;
+  }
+  
+  .Filetable-container thead {
+    text-align: -webkit-left;
+  }
+  
+  .Filetable-container tr {
+    height: 3rem;
+    font-size: 1.1rem;
+    border: 1px solid rgba(219, 219, 219);
+  }
+  
+  .Filetable-row-selected {background-color: #f1f1f1}
+  
+  .Filetable-container tr:hover {
+    background-color: #f1f1f1; 
+    cursor: pointer;
+  }
+  
+  .row-path {
+    float: left;
+  }
+  
+  #selected-text {
+    width: 200px;
+  }
+  #download-button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+  }
+  
+  #download-button :hover {
+    cursor: pointer;
+  }
+
+  #download-button .icon {
+    width: 25px;
+    height: 25px;
+  }
